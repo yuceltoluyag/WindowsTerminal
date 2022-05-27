@@ -36,7 +36,7 @@
 [http]
 	postBuffer = 524288000
 [gpg]
-	program = "C:\Users\Friday13\scoop\apps\gpg\current\bin\gpg.exe"
+	program = "C:\\Users\\Friday13\\scoop\\apps\\gpg\\current\\bin\\gpg.exe"
 
 [filter "lfs"]
 	clean = git-lfs clean -- %f
