@@ -1,0 +1,45 @@
+[core]
+	editor = code
+
+[user]
+	signingkey = 8416A43957C19627
+	name = yuceltoluyag
+	email = ytoluyag@gmail.com
+
+[color]
+	ui = auto
+[commit]
+	gpgsign = true
+[format]
+	signoff = true
+[credential]
+	helper = cache --timeout=3600
+[alias]
+	a = add
+	aa = add -A
+	c = commit
+	ca = commit --amend
+	cs = commit -s
+	cp = cherry-pick
+	cpa = cherry-pick --abort
+	cpc = cherry-pick --continue
+	cpe = cherry-pick --edit
+	d = diff
+	rh = reset --hard
+	m = merge --signoff
+	ma = merge --abort
+	mc = merge --continue
+	p = push
+	pf = push --force
+	pr = pull --rebase
+	s = status
+[http]
+	postBuffer = 524288000
+[gpg]
+	program = "C:\Users\Friday13\scoop\apps\gpg\current\bin\gpg.exe"
+
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
