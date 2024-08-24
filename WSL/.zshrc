@@ -1,22 +1,28 @@
-# -------------------------------- General ---------------------------------
-export ZSH="$HOME/.oh-my-zsh"
-ZSH_THEME="cloud"
-plugins=(git zsh-autosuggestions fast-syntax-highlighting)
-source $ZSH/oh-my-zsh.sh
-PATH="$HOME/.script:$PATH"
-PATH="$HOME/.node_modules/bin:$PATH"
-export npm_config_prefix=~/.node_modules
+# .zshrc
+
+# Antidote'u kaynak olarak ekleyin
+source /usr/share/zsh-antidote/antidote.zsh
+
+# .zsh_plugins.txt dosyasını yükleyin
+antidote load ${ZDOTDIR:-$HOME}/.zsh_plugins.txt
+# Tema ayarı (Lambda Mod teması)
+export LAMBDA_MOD_N_DIR_LEVELS=10
+# PATH ve Diğer Değişkenler
+export npm_config_prefix="$HOME/.node_modules"
 export GEM_HOME="$(ruby -e 'puts Gem.user_dir')"
-export PATH="$PATH:$GEM_HOME/bin"
 export XDG_CONFIG_HOME="$HOME/.config"
-export XDG_CACHE_HOME=$HOME/.cache
-export XDG_DATA_HOME=$HOME/.local/share
-export PATH="$HOME/.local/bin":$PATH
+export XDG_CACHE_HOME="$HOME/.cache"
+export XDG_DATA_HOME="$HOME/.local/share"
+export GPG_TTY=$(tty)
+
+# PATH Tanımlamaları Birleştirildi
+export PATH="$HOME/.script:$npm_config_prefix/bin:$GEM_HOME/bin:$HOME/.local/bin:$HOME/.cargo/bin:$PATH"
+
+# MAN Pages Neovim ile Açma
 export MANPAGER='nvim +Man!'
 export MANWIDTH=999
-export PATH=$HOME/.cargo/bin:$PATH
-export GPG_TTY=$(tty)
-# -------------------------------- Alias ---------------------------------
+
+# Alias ve Fonksiyonlar
 alias vi='nvim'
 alias vim='nvim'
 alias guncelle='sudo pacman -Syyu && yay -Syu'
@@ -31,7 +37,6 @@ alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 alias diff='diff --color=auto'
 
-# -------------------------------- FUNCTIONS ---------------------------------
 function lazygit() {
     git status .
     git add .
@@ -39,11 +44,11 @@ function lazygit() {
     git push -u origin "$2"
 }
 
-function find() {
-    if [ $# = 1 ];
-    then
-        command find . -iname "*$@*"
+function myfind() {
+    if [ $# -eq 1 ]; then
+        command find . -iname "*$1*"
     else
         command find "$@"
     fi
 }
+

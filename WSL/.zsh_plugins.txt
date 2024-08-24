@@ -1,0 +1,15 @@
+# ~/.zsh_plugins.txt
+
+# Antidote Oh My Zsh entegrasyonu
+getantidote/use-omz
+
+# Oh My Zsh çekirdeği ve eklentileri
+ohmyzsh/ohmyzsh path:lib
+
+# Zsh eklentileri
+zsh-users/zsh-syntax-highlighting
+zsh-users/zsh-autosuggestions
+zsh-users/zsh-completions
+
+# Tema
+halfo/lambda-mod-zsh-theme
