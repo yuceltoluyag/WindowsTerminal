@@ -1,6 +1,7 @@
 [core]
 	editor = code
 
+	autocrlf = input
 [user]
 	signingkey = 8416A43957C19627
 	name = yuceltoluyag
@@ -12,8 +13,6 @@
 	gpgsign = true
 [format]
 	signoff = true
-[credential]
-	helper = cache --timeout=3600
 [alias]
 	a = add
 	aa = add -A
@@ -36,10 +35,13 @@
 [http]
 	postBuffer = 524288000
 [gpg]
-	program = "C:\\Users\\Friday13\\scoop\\apps\\gpg\\current\\bin\\gpg.exe"
+	program = "C:\\Users\\Enigma\\scoop\\apps\\gpg\\current\\bin\\gpg.exe"
+
 
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+[credential]
+	helper = cache
