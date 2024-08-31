@@ -155,6 +155,15 @@
         "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
       },
       {
+        "antialiasingMode": "grayscale",
+        "commandline": "C:\\Program Files\\Git\\bin\\bash.exe",
+        "guid": "{9007171a-b457-4606-873f-7023399938ce}",
+        "hidden": false,
+        "name": "Git Bash",
+        "startingDirectory": "%USERPROFILE%",
+        "icon": "C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico"
+      },
+      {
         "guid": "{a5a97cb8-8961-5535-816d-772efe0c6a3f}",
         "hidden": false,
         "name": "Arch",
