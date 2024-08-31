@@ -35,9 +35,7 @@
 [http]
 	postBuffer = 524288000
 [gpg]
-	program = "C:\\Users\\Enigma\\scoop\\apps\\gpg\\current\\bin\\gpg.exe"
-
-
+	program = "C:\\Users\\Enigma\\scoop\\apps\\gpg4win\\current\\GnuPG\\bin\\gpg.exe"
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
