@@ -1,196 +1,194 @@
-acl 2.3.2-1
-arch-install-scripts 28-2
-archlinux-keyring 20240709-1
-argon2 20190702-6
-attr 2.5.2-1
-audit 4.0.2-1
-autoconf 2.72-1
-autojump 22.5.3-9
-automake 1.17-1
-base 3-2
-base-devel 1-1
-bash 5.2.032-1
-bash-completion 2.14.0-2
-binutils 2.43+r4+g7999dae6961-1
-bison 3.8.2-6
-brotli 1.1.0-2
-bzip2 1.0.8-6
-c-ares 1.33.0-1
-ca-certificates 20240618-1
-ca-certificates-mozilla 3.103-1
-ca-certificates-utils 20240618-1
-coreutils 9.5-1
-cryptsetup 2.7.4-1
-curl 8.9.1-2
-db5.3 5.3.28-5
-dbus 1.14.10-2
-dbus-broker 36-4
-dbus-broker-units 36-4
-debugedit 5.0-6
-device-mapper 2.03.25-2
-diffutils 3.10-1
-e2fsprogs 1.47.1-4
-expat 2.6.2-1
-fakeroot-tcp 1.34-1
-file 5.45-1
-filesystem 2024.04.07-1
-findutils 4.10.0-1
-flex 2.6.4-5
-gawk 5.3.0-1
-gc 8.2.6-1
-gcc 14.2.1+r32+geccf707e5ce-1
-gcc-libs 14.2.1+r32+geccf707e5ce-1
-gdbm 1.24-1
-gettext 0.22.5-1
-git 2.46.0-1
-glib2 2.80.4-1
-glibc 2.40+r16+gaa533d58ff-2
-gmp 6.3.0-2
-gnupg 2.4.5-4
-gnutls 3.8.7-1
-go 2:1.23.0-1
-gpgme 1.23.2-6
-gpm 1.20.7.r38.ge82d1a6-6
-grep 3.11-1
-groff 1.23.0-6
-guile 3.0.10-1
-gzip 1.13-4
-htop 3.3.0-3
-hwdata 0.385-1
-iana-etc 20240612-1
-icu 75.1-1
-iproute2 6.10.0-2
-iptables 1:1.8.10-2
-iputils 20240117-1
-jansson 2.14-4
-json-c 0.17-2
-kbd 2.6.4-1
-keyutils 1.6.3-3
-kmod 33-1
-krb5 1.21.3-1
-less 1:661-1
-libarchive 3.7.4-1
-libassuan 3.0.0-1
-libbpf 1.4.3-1
-libcap 2.70-1
-libcap-ng 0.8.5-2
-libdatrie 0.2.13-4
-libedit 20240517_3.1-1
-libelf 0.191-4
-libevent 2.1.12-4
-libffi 3.4.6-1
-libgcrypt 1.11.0-2
-libgpg-error 1.50-1
-libidn2 2.3.7-1
-libisl 0.26-2
-libksba 1.6.7-1
-libldap 2.6.8-1
-libluv 1.48.0_2-1
-libmnl 1.0.5-2
-libmpc 1.3.1-2
-libnetfilter_conntrack 1.0.9-2
-libnfnetlink 1.0.2-2
-libnftnl 1.2.7-1
-libnghttp2 1.62.1-1
-libnghttp3 1.4.0-1
-libngtcp2 1.6.0-1
-libnl 3.10.0-1
-libnsl 2.0.1-1
-libp11-kit 0.25.5-1
-libpcap 1.10.4-2
-libpsl 0.21.5-2
-libsasl 2.1.28-5
-libseccomp 2.5.5-3
-libsecret 0.21.4-1
-libssh2 1.11.0-1
-libsysprof-capture 46.0-4
-libtasn1 4.19.0-2
-libthai 0.1.29-3
-libtirpc 1.3.5-1
-libtool 2.5.1-2
-libunistring 1.2-1
-libusb 1.0.27-1
-libutempter 1.2.1-4
-libutf8proc 2.9.0-1
-libuv 1.48.0-2
-libverto 0.3.2-5
-libvterm 0.3.3-2
-libxcrypt 4.4.36-2
-libxml2 2.13.3-1
-libyaml 0.2.5-3
-licenses 20240728-1
-linux-api-headers 6.10-1
-lmdb 0.9.33-1
-lua51-lpeg 1.1.0-2
-luajit 2.1.1723675123-1
-lz4 1:1.10.0-2
-m4 1.4.19-3
-make 4.4.1-2
-mpdecimal 4.0.0-2
-mpfr 4.2.1-4
-msgpack-c 5.0.0-2
-nano 8.1-1
-ncurses 6.5-3
-neovim 0.10.1-3
-nettle 3.10-1
-nodejs 22.7.0-1
-npth 1.7-1
-openssh 9.8p1-1
-openssl 3.3.1-1
-p11-kit 0.25.5-1
-pacman 6.1.0-3
-pacman-mirrorlist 20240717-1
-pam 1.6.1-2
-pambase 20230918-2
-patch 2.7.6-10
-pciutils 3.13.0-1
-pcre2 10.44-1
-perl 5.38.2-2
-perl-error 0.17029-6
-perl-mailtools 2.21-8
-perl-mime-charset 1.013.1-3
-perl-timedate 2.33-6
-perl-unicode-linebreak 2019.001-7
-perl-yaml-tiny 1.74-3
-pinentry 1.3.1-5
-pkgconf 2.1.1-1
-po4a 0.73-1
-popt 1.19-1
-procps-ng 4.0.4-3
-psmisc 23.7-1
-python 3.12.4-1
-readline 8.2.013-1
-ruby 3.2.4-1
-rubygems 3.4.19-1
-sed 4.9-3
-shadow 4.16.0-1
-sqlite 3.46.1-1
-sudo 1.9.15.p5-2
-systemd 256.5-1
-systemd-libs 256.5-1
-systemd-sysvcompat 256.5-1
-tar 1.35-2
-texinfo 7.1-2
-tpm2-tss 4.0.1-1
-tree-sitter 0.22.6-1
-tree-sitter-c 0.21.4-1
-tree-sitter-lua 0.1.0-2
-tree-sitter-markdown 0.2.3-2
-tree-sitter-query 0.4.0-1
-tree-sitter-vim 0.4.0-1
-tree-sitter-vimdoc 3.0.0-1
-tzdata 2024a-2
-unibilium 2.1.1-2
-util-linux 2.40.2-1
-util-linux-libs 2.40.2-1
-vim 9.1.0689-1
-vim-runtime 9.1.0689-1
-wget 1.24.5-3
-which 2.21-6
-xz 5.6.2-1
-yay 12.3.5-1
-yay-debug 12.3.5-1
-zlib 1:1.3.1-2
-zsh 5.9-5
-zsh-antidote 1.9.7-1
-zstd 1.5.6-1
+acl
+arch-install-scripts
+archlinux-keyring
+argon2
+attr
+audit
+autoconf
+autojump
+automake
+base
+base-devel
+bash
+bash-completion
+binutils
+bison
+brotli
+bzip2
+c-ares
+ca-certificates
+ca-certificates-mozilla
+ca-certificates-utils
+coreutils
+cryptsetup
+curl
+db5.3
+dbus
+dbus-broker
+dbus-broker-units
+debugedit
+device-mapper
+diffutils
+e2fsprogs
+expat
+fakeroot-tcp
+file
+filesystem
+findutils
+flex
+gawk
+gc
+gcc
+gcc-libs
+gdbm
+gettext
+git
+glib2
+glibc
+gmp
+gnupg
+gnutls
+go
+gpgme
+gpm
+grep
+groff
+guile
+gzip
+htop
+hwdata
+iana-etc
+icu
+iproute2
+iptables
+iputils
+jansson
+json-c
+kbd
+keyutils
+kmod
+krb5
+less
+libarchive
+libassuan
+libbpf
+libcap
+libcap-ng
+libdatrie
+libedit
+libelf
+libevent
+libffi
+libgcrypt
+libgpg-error
+libidn2
+libisl
+libksba
+libldap
+libluv
+libmnl
+libmpc
+libnetfilter_conntrack
+libnfnetlink
+libnftnl
+libnghttp2
+libnghttp3
+libngtcp2
+libnl
+libnsl
+libp11-kit
+libpcap
+libpsl
+libsasl
+libseccomp
+libsecret
+libssh2
+libsysprof-capture
+libtasn1
+libthai
+libtirpc
+libtool
+libunistring
+libusb
+libutempter
+libutf8proc
+libuv
+libverto
+libvterm
+libxcrypt
+libxml2
+libyaml
+licenses
+linux-api-headers
+lmdb
+lua51-lpeg
+luajit
+lz4
+m4
+make
+mpdecimal
+mpfr
+msgpack-c
+nano
+ncurses
+neovim
+nettle
+nodejs
+npth
+openssh
+openssl
+p11-kit
+pacman
+pacman-mirrorlist
+pam
+pambase
+patch
+pciutils
+pcre2
+perl
+perl-error
+perl-mailtools
+perl-mime-charset
+perl-timedate
+perl-unicode-linebreak
+perl-yaml-tiny
+pinentry
+pkgconf
+po4a
+popt
+procps-ng
+psmisc
+python
+readline
+ruby
+rubygems
+sed
+shadow
+sqlite
+sudo
+systemd
+systemd-libs
+systemd-sysvcompat
+tar
+texinfo
+tpm2-tss
+tree-sitter
+tree-sitter-c
+tree-sitter-lua
+tree-sitter-markdown
+tree-sitter-query
+tree-sitter-vim
+tree-sitter-vimdoc
+tzdata
+unibilium
+util-linux
+util-linux-libs
+vim
+vim-runtime
+wget
+which
+xz
+zlib
+zsh
+zsh-antidote
+zstd
