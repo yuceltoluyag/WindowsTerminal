@@ -2,6 +2,7 @@
 	editor = code
 
 	autocrlf = input
+	pager = cat
 [user]
 	signingkey = 8416A43957C19627
 	name = yuceltoluyag
@@ -35,7 +36,8 @@
 [http]
 	postBuffer = 524288000
 [gpg]
-	program = "C:\\Users\\Enigma\\scoop\\apps\\gpg4win\\current\\GnuPG\\bin\\gpg.exe"
+	program = C:\\Users\\baba\\scoop\\apps\\gpg4win\\5.0.1\\GnuPG\\bin\\gpg.exe
+	pinentry-mode = loopback
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
