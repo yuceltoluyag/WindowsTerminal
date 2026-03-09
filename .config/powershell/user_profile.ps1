@@ -2,7 +2,7 @@
 [console]::InputEncoding = [console]::OutputEncoding = [System.Text.Encoding]::UTF8
 
 # Use $env:USERPROFILE to dynamically reference the user's home directory
-$omp_config = "$env:USERPROFILE\AppData\Local\Programs\oh-my-posh\themes\huvix.omp.json"
+$omp_config = "$env:USERPROFILE\AppData\Local\Programs\oh-my-posh\themes\material.omp.json"
 oh-my-posh init pwsh --config $omp_config | Invoke-Expression
 
 Import-Module -Name Terminal-Icons
@@ -33,3 +33,6 @@ function which ($command) {
   Get-Command -Name $command -ErrorAction SilentlyContinue |
     Select-Object -ExpandProperty Path -ErrorAction SilentlyContinue
 }
+
+# GPG Agent Setup for Git Signing
+gpg-connect-agent updatestartuptty /bye | Out-Null
